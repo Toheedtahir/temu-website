@@ -13,6 +13,7 @@ export interface Plan {
   id: string
   name: string
   price: number
+  price_display: string | null
   duration: string
   description: string | null
   features: string[] | null
@@ -53,5 +54,17 @@ export interface Inquiry {
   store_type: string | null
   message: string | null
   status: 'new' | 'contacted' | 'closed'
+  created_at: string
+}
+
+export interface Account {
+  id: string
+  account_name: string
+  niche: string
+  products_count: number | null
+  monthly_sales: string | null
+  rating: number | null
+  highlight: string | null
+  is_active: boolean
   created_at: string
 }

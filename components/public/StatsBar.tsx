@@ -1,8 +1,8 @@
 const stats = [
-  { value: '50+', label: 'Stores Managed' },
-  { value: '3+', label: 'Years Experience' },
+  { value: '8+', label: 'Accounts Managed' },
+  { value: '1,000+', label: 'Products Listed' },
   { value: '98%', label: 'Client Satisfaction' },
-  { value: '$500K+', label: 'Revenue Generated' },
+  { value: '3+', label: 'Years Experience' },
 ]
 
 export default function StatsBar() {
